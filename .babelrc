@@ -1,3 +1,10 @@
 {
-    "presets": ["react", "stage-2", "env"]
+    "presets": ["env", "react", "stage-2"],
+    "env": {
+        "test": {
+            "plugins": [
+                "istanbul"
+            ]
+        }
+    }
 }

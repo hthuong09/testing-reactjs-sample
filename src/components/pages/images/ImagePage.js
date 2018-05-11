@@ -1,4 +1,3 @@
-/* istanbul ignore file */
 import React, { Component } from 'react';
 
 class ImagePage extends Component {
